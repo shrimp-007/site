@@ -9,15 +9,12 @@
 * {
   box-sizing: border-box;
 }
-button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
+.centre {
+  margin: 0;
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
 }
 
 body {
@@ -95,9 +92,9 @@ footer {
 <section>
   <nav>
     <ul>
-        <button onclick="document.location='https://www.thecatswhiskerstiverton.co.uk'" style="font-size:225%; font-family:'Brush Script MT', cursive; text-align:center;">an excellent cattery</button>
-        <button onclick="document.location='https://www.petsathome.com/shop/en/pets/cat'" style="font-size:225%; font-family:'Brush Script MT', cursive; text-align:center;">great shop to get cat stuff from</button>
-        <button onclick="document.location='https://www.cats.org.uk'" style="font-size:225%; font-family:'Brush Script MT', cursive; text-align:center;">cat protection charity</button>
+        <button class="centre" onclick="document.location='https://www.thecatswhiskerstiverton.co.uk'" style="font-size:225%; font-family:'Brush Script MT', cursive; text-align:center;">an excellent cattery</button>
+        <button class="centre" onclick="document.location='https://www.petsathome.com/shop/en/pets/cat'" style="font-size:225%; font-family:'Brush Script MT', cursive; text-align:center;">great shop to get cat stuff from</button>
+        <button class="centre" onclick="document.location='https://www.cats.org.uk'" style="font-size:225%; font-family:'Brush Script MT', cursive; text-align:center;">cat protection charity</button>
         </ul>
   </nav>
   
